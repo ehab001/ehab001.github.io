@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	
+}
+
+body {
+	background-color: #FFFAFA;
+	margin-right: 100px;
+	margin-left: 100px;
+	min-width: 400px;
+	max-width: 2000px;
+	min-height: 400px;
+	max-height: 2000px;
+	z-index: 10;
+	
+}
+
+
+.container {
+	background-image: url("mainbg2.jpg");
+	height: 1200px;
+	border-radius: 50px;
+}
+
+.header {
+	background-color: white;
+	opacity: 0.7;
+	border-bottom: solid;
+	border-bottom-color: lightblue;
+	border-radius: 50px;
+	font-size: 32px;
+}
+.header h1 {
+	text-align: center;
+	opacity: 1;
+	padding: 10px;
+}
+.image {
+	
+	display: inline;
+	margin: auto;
+    width: 600px;
+	height: 350px;
+    padding-bottom: 5px;
+	padding-left: 5px;
+    margin-bottom: 5px;
+	
+	background-color: hsla(0,0%,0%, 0.2);
+	border-radius: 30px;
+}
+
+
+
+.text p {
+	background-color: hsla(240,100%,50%, 0.1);
+	padding:20px;
+	border: solid;
+	border-color: lightblue;
+	border-radius: 50px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 1.4;
+	text-align:center;
+}
+.text2 p {
+	background-color: hsla(240,100%,50%, 0.1);
+	padding:20px;
+	border: solid;
+	border-color: lightblue;
+	border-radius: 50px;
+	margin-top: 20px;
+	margin-left: 25px;
+	width: 300px;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 1.4;
+	
+	float: left;
+}
+
+/* Experment */
+
+.image2 {
+	position: absolute;
+	top: 650px;
+	left: 570px;
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.image2:hover {
+    width: 500px;
+    height: 500px;
+    
+    transform: rotate(360deg);
+}
+
+/* Experment end */
+
+.arrows img {
+	margin-top:90px;
+	height: 90px;
+	display: inline;
+	z-index: 2
+}
