@@ -159,8 +159,9 @@ a {
 	
 	/* test */
 	animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 7s;
 	animation-iteration-count: 10;
+	animation-delay: 0s;
 	/* test */
 	padding-top:5px;
 	border-top: solid;
@@ -172,10 +173,10 @@ a {
 }
 /* test */
 @keyframes example {
-    0%   {color: dodgerblue;}
-    25%  {color: white;}
+    0%   {color: black;}
+    25%  {color: green;}
     50%  {color: red;}
-    100% {color: black;}
+    100% {color: blue;}
 	
 }
 /* test */

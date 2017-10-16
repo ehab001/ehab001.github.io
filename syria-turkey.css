@@ -56,7 +56,16 @@ ul {
 	border-radius: 50px;
 }
 
-li {
+li2 {
+	line-height: 50px;
+	opacity: 1;
+	font-size: 16px;
+	font-weight: bold;
+	color: dodgerblue;
+	
+}
+
+ul li {
 	
 	line-height: 50px;
 	opacity: 1;
