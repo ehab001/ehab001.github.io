@@ -2,10 +2,33 @@
 	margin: 0;
 	
 }
-a {
+li a {
 	text-decoration: none;
 	color: dodgerblue;
 }
+
+li a:visited {
+    color: dodgerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+li a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+li a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
 
 body {
 	background-color: #FFFAFA;

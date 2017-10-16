@@ -3,6 +3,31 @@
 	
 }
 
+li a {
+	text-decoration: none;
+	color: dodgerblue;
+}
+
+li a:visited {
+    color: dodgerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+li a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+li a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
 body {
 	background-color: #FFFAFA;
 	margin-right: 100px;
@@ -11,9 +36,39 @@ body {
 	max-width: 2000px;
 	min-height: 400px;
 	max-height: 2000px;
-	z-index: 10;
+	
 	
 }
+
+ul {
+	position: fixed;
+	left: 5px;
+	top: 100px;
+	z-index:11;
+	
+	padding: 20px;
+	text-align: center;
+	background-color: white;
+	border-bottom: solid;
+	border-bottom-color: lightblue;
+	border-right: solid;
+	border-right-color: lightblue;
+	opacity: 1;
+	border-radius: 50px;
+}
+
+li {
+	
+	line-height: 50px;
+	opacity: 1;
+	font-size: 16px;
+	font-weight: bold;
+	color: dodgerblue;
+	
+}
+
+
+
 
 .header {
 	margin-bottom: 70px;

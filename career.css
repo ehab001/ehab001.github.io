@@ -33,6 +33,35 @@ body {
 	border-radius: 50px;
 }
 
+ul {
+	position: fixed;
+	left: 5px;
+	top: 100px;
+	z-index:11;
+	
+	padding: 20px;
+	text-align: center;
+	background-color: white;
+	border-bottom: solid;
+	border-bottom-color: lightblue;
+	border-right: solid;
+	border-right-color: lightblue;
+	opacity: 1;
+	border-radius: 50px;
+}
+
+li {
+	
+	line-height: 50px;
+	opacity: 1;
+	font-size: 16px;
+	font-weight: bold;
+	color: dodgerblue;
+	
+}
+
+
+
 .text {
 	
 	text-align: center;
@@ -48,6 +77,8 @@ body {
 	border-radius: 50px;
 	margin-top: 50px;
 	margin-bottom: 60px;
+	margin-left: 55px;
+	margin-right: 55px;
 	font-size: 20px;
 	line-height: 30px;
 	letter-spacing: 1.4;
@@ -83,10 +114,35 @@ body {
 	border-radius: 30px;
 }
 
+
+li a {
+	text-decoration: none;
+	color: dodgerblue;
+}
+
+li a:visited {
+    color: dodgerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+li a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+li a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 a {
 	text-decoration: none;
 	color: dodgerblue;
 }
+
+
+
 
 
 .footer {
@@ -99,7 +155,7 @@ a {
 	color: dodgerblue;
 	
 }
-a {
+.footer a {
 	
 	/* test */
 	animation-name: example;
