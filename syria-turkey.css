@@ -39,14 +39,14 @@ body {
 	
 }
 
-ul {
+.nav {
 	position: fixed;
 	left: 5px;
 	top: 100px;
 	z-index:11;
 	
 	padding: 20px;
-	text-align: center;
+	text-align: left;
 	background-color: white;
 	border-bottom: solid;
 	border-bottom-color: lightblue;
@@ -54,6 +54,8 @@ ul {
 	border-right-color: lightblue;
 	opacity: 1;
 	border-radius: 50px;
+	width: 130px;
+	
 }
 
 li2 {
